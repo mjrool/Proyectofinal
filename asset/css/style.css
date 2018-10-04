@@ -34,6 +34,10 @@ p{
 
 }
 
+body{
+	padding-top: 50px;
+}
+
 @media only screen and (max-width: 767px){
 
 	h1{
@@ -48,6 +52,8 @@ p{
 		font-size: 1.375em;
 	}
 }
+
+
 
 /* GALERIA */
 
@@ -70,11 +76,62 @@ p{
 	padding-right: 60px;
 }
 
+.button2{
+	border-radius: 10px;
+}
+
+.nav li {
+    font-family: 'Lato', Thin;
+}
+
+.container-fluid{
+	padding-right: 40px;
+}
+
+.container-logo{
+	padding: 30px;
+}
+
+i{
+	color: #C2BDCE;
+}
+
+@media only screen and (max-width: 320px){
+
+.container-logo{
+	padding: 10px;
+}
+.row{
+	padding-left: 20px;
+	padding-right: 20px;
+}
 
 
+}
 
+@media only screen (min-width: 320px) and (max-width: 767px){
+
+.container-logo{
+	padding: 30px;
+}
+.row{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+
+}
 
 /* BIO */
 
 /* CONTACTO */
 
+.contacto{
+	padding: 35px;
+	font-family: 'Lato', Thin;
+}
+
+.boton-contacto{
+	border-radius: 7px;
+	margin-top: 5px;
+}
