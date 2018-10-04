@@ -63,11 +63,14 @@ body{
 
 }
 
-.footer_fullmun{
+.footer-fullmun{
 	background-color: #F2F1F5;
 	margin-top: 50px;
 	padding-top: 40px;
 	padding-bottom: 30px;
+	clear: both;
+	text-align: center;
+
 
 }
 
@@ -84,9 +87,7 @@ body{
     font-family: 'Lato', Thin;
 }
 
-.container-fluid{
-	padding-right: 40px;
-}
+
 
 .container-logo{
 	padding: 30px;
@@ -98,34 +99,49 @@ i{
 
 @media only screen and (max-width: 320px){
 
-.container-logo{
-	padding: 10px;
-}
-.row{
-	padding-left: 20px;
-	padding-right: 20px;
-}
+	.container-logo{
+		padding: 10px;
+	}
+	.row{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 
+	iframe{
+		width: 200px;
+	}
 
 }
 
 @media only screen (min-width: 320px) and (max-width: 767px){
 
-.container-logo{
-	padding: 30px;
+	.container-logo{
+		padding: 30px;
+	}
 
-}
 
-
-.row{
-	padding-left: 50px;
-	padding-right: 50px;
-}
-
+	.row{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
 
 }
 
 /* BIO */
+.foto-bio{
+	margin: 20px;
+}
+
+.footer-fullmun{
+	clear: both;
+}
+
+
+.bio{
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
 
 /* CONTACTO */
 
