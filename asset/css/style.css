@@ -113,7 +113,10 @@ i{
 
 .container-logo{
 	padding: 30px;
+
 }
+
+
 .row{
 	padding-left: 50px;
 	padding-right: 50px;
@@ -128,10 +131,32 @@ i{
 
 .contacto{
 	padding: 35px;
+	padding-bottom: 100px;
 	font-family: 'Lato', Thin;
 }
 
 .boton-contacto{
 	border-radius: 7px;
 	margin-top: 5px;
+}
+
+.footer-contacto{
+	background-color: #F2F1F5;
+	margin-top: 100px;
+	margin-bottom: 0px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	width: 100%;
+	height: 100px;
+	clear: both;
+	text-align: center;
+}
+
+@media only screen and (max-width: 320px){
+
+.contacto{
+	padding: 0px;
+	font-size: 0.80em;
+}
+
 }
