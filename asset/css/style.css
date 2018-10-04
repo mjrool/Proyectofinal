@@ -33,3 +33,48 @@ p{
 	display: block;
 
 }
+
+@media only screen and (max-width: 767px){
+
+	h1{
+		font-size: 2em;
+	}
+
+	h2{
+		font-size: 1.625em;
+	}
+
+	h3{
+		font-size: 1.375em;
+	}
+}
+
+/* GALERIA */
+
+.nombre-galeria{
+	text-align: center;
+	margin: 25px;
+
+}
+
+.footer_fullmun{
+	background-color: #F2F1F5;
+	margin-top: 50px;
+	padding-top: 40px;
+	padding-bottom: 30px;
+
+}
+
+.row{
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+
+
+
+
+/* BIO */
+
+/* CONTACTO */
+
