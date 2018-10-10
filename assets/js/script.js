@@ -16,6 +16,7 @@ $(window).ready(function(){
  //formulario//
 
  var Form = document.getElementById('form');
+ var url = 'https://jsonplaceholder.typicode.com';
 
 form .addEventListener('submit', function(e){
 	e.preventDefault();
@@ -29,5 +30,12 @@ form .addEventListener('submit', function(e){
 	console.log(datos.get('medidas'))
 	console.log(datos.get('text-area'))
 });
+
+	$.ajax({
+		url: url + '/posts/' + id,
+		method: 'GET'
+	}).then(function(data){
+			$('')
+	})
 
 }); 
